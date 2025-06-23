@@ -1,5 +1,15 @@
 const hamburguer = document.getElementById("hamburguer");
 const links = document.querySelector(".menu-links");
+const header = document.querySelector("header");
+
+window.addEventListener("scroll", function() {
+    if(window.scrollY > 150) {
+        header.classList.add("scrolled");
+    }
+    else {
+        header.classList.remove("scrolled");
+    }
+});
 
 links.addEventListener("click", toggleLinks);
 hamburguer.addEventListener("click", toggleLinks);
