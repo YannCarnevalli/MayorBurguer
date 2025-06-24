@@ -32,8 +32,8 @@
         </header>
         <h2 id="slogan">ELEITO <span>O MAIS SABOROSO</span></h2>
     </section>
-
-
+    
+    
     <main>
         <section id="sobre-nos" class="conteudo">
             <h2>SOBRE NÓS</h2>
@@ -49,19 +49,33 @@
             <h2>LANCHES</h2>
             <div>
                 <button class="mudar-lanche"><img class="seta" src="./src/assets/anterior.png"></button>
-                <article>
-                    <div class="img-lanche"></div>
-                    <h3 class="titulo-lanche">Mayor Tower</h3>
-                    <p>Mayor Tower é um hambúrguer de tamanho grande. Com dois hambúrgueres, cebola, alface, pão dourado na manteiga, um ovo frito e pedaços de carne de porco. É um lanche para grandes fomes</p>
-                    <h4 class="preco-lanche">R$ 17,90</h4>
-                </article>
+                <div>
+                    <article class="slide active">
+                        <div id="slide-img-1" class="img-lanche"></div>
+                        <h3 class="titulo-lanche">Mayor Tower</h3>
+                        <p>Mayor Tower é um hambúrguer de tamanho grande. Com dois hambúrgueres, cebola, alface, pão dourado na manteiga, um ovo frito e pedaços de carne de porco. É um lanche para grandes fomes!</p>
+                        <h4 class="preco-lanche">R$ 21,90</h4>
+                    </article>
+                    <article class="slide">
+                        <div id="slide-img-2" class="img-lanche"></div>
+                        <h3 class="titulo-lanche">Rustic Burguer</h3>
+                        <p>Rustic Burguer é um hambúrguer com pão crocante, queijo, maionese, alface, tomate e picles, acompanhado de batata rústica, crocante e dourada. Um prato sofisticado e para pessoas famintas.</p>
+                        <h4 class="preco-lanche">R$ 24,90</h4>
+                    </article>
+                    <article class="slide">
+                        <div id="slide-img-3" class="img-lanche"></div>
+                        <h3 class="titulo-lanche">Mayor Grand Bacon</h3>
+                        <p>Muito bacon para um hamburguer só! Mayor Grand Bacon é um hambúrguer com três fatias de queijo, diversos pedaços de bacon com um hambúrguer suculento, tudo isso num pão delicioso. Uma refeição boa para fãs de bacon.</p>
+                        <h4 class="preco-lanche">R$ 19,90</h4>
+                    </article>
+                </div>
                 <button class="mudar-lanche"><img class="seta" src="./src/assets/proximo.png"></button>
             </div>
             <button id="fazer-pedido">Fazer Pedido</button>
         </section>
-
+        
     </main>
-
+    
     <footer id="footer">
         <div class="footer">
             <div class="contato">
@@ -76,7 +90,7 @@
                     <li><a href="#">Facebook: MayorBurguer </a></li>
                 </ul>
             </div>
-
+                
             <div class="direitos">
                 <h6>&copy; 2025 - todos os direitos reservados</h6>
             </div>
@@ -86,3 +100,4 @@
     <!-- CHAMANDO O JAVASCRIPT EXTERNO -->
     <script src="./src/js/script.js"></script>
 </body>
+</html>
